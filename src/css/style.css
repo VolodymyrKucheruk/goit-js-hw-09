@@ -1,0 +1,39 @@
+#datetime-picker {
+  width: auto;
+  display: inline-block;
+  text-align: center;
+  margin-right: 15px;
+  font-size: 18px;
+  border-radius: 4px;
+  border-color: inherit;
+}
+button {
+  margin: 0;
+  padding: 0, 8px;
+  height: 25px;
+  width: auto;
+  display:inline-block;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  background: var(--IRIS, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: white;
+}
+.timer {
+  display: flex;
+  gap: 10px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.value {
+  font-size: 25px;
+}
+.label {
+  font-size: 20px;
+}
